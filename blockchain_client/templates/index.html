@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Blockchain</title>
+    <title>Blockchain Client</title>
     <link rel="stylesheet" href="/static/vendor/bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="/static/vendor/DataTables/css/datatables.min.css">
     <link rel="stylesheet" href="/static/vendor/font-awesome/font-awesome.min.css">
@@ -81,6 +81,7 @@
                 {
                     url : '/wallet/new',
                     type : 'GET',
+                    header: {'Access-Control-Allow-Origin': '*'},
                     success: function(response){
                         document.getElementById("public_key").innerHTML = response['public_key'];
                         document.getElementById("private_key").innerHTML = response['private_key'];
