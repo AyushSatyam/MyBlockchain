@@ -6,19 +6,16 @@ This is an implimentation of basic Blockchain Structure such as hash cryptograph
 
 ## Clone
 <pre>` $ git clone https://github.com/AyushSatyam/MyBlockchain.git `</pre>
-
 ## Installation
-Flask <br>
+Flask 
 <pre>` pip install Flask `</pre>
-PyCrypto<br>
-<pre>` pip install pycrypto `</pre><br>
- 
+PyCrypto
+<pre>` pip install pycrypto `</pre>
 ## Run
 To start Blockchain Network 
 <pre>` $ python blockchain.py `</pre>
 To create client run this command in another terminal
 <pre>` $ python blockchain_cline.py `</pre>
-
 
 ## File Structure
 <ul>
